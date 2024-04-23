@@ -91,7 +91,7 @@ galleryEl.addEventListener("click", openModalWindow)
 function openModalWindow(galleryEvent) {
     if (!galleryEvent.target.dataset.source) return
     console.log(galleryEvent.target.dataset.source)
-    window.basicLightbox.create(`
+    basicLightbox.create(`
     <img src="${galleryEvent.target.dataset.source}" alt="${galleryEvent.target.dataset.alt}">
     `).show()
 }
