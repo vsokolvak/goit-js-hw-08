@@ -93,8 +93,5 @@ function openModalWindow(galleryEvent) {
     console.log(galleryEvent.target.dataset.source)
     window.basicLightbox.create(`
     <img src="${galleryEvent.target.dataset.source}" alt="${galleryEvent.target.dataset.alt}">
-    <h1 style="color:white; text-align:center; margin-top: 20px;">
-        ${galleryEvent.target.dataset.alt}
-    </h1>
-	`).show()
+    `).show()
 }
