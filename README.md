@@ -1,2 +1,2 @@
-# goit-markup-hw-01
- home work 1 - html
+# goit-js-hw-07
+home work 07
